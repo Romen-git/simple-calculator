@@ -1,0 +1,54 @@
+# Ignore build directory
+/build/
+# Ignore NetBeans project directory
+/nbproject/private/
+/nbproject/Makefile-*.mk
+/nbproject/Package-*.mk
+/nbproject/configs/
+
+# Ignore libraries and compiled files
+/lib/
+/*.jar
+/*.war
+/*.ear
+
+# Ignore IntelliJ IDEA project files (if applicable)
+.idea/
+*.iml
+
+# Ignore Eclipse project files (if applicable)
+.project
+.classpath
+.settings/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore test results and logs
+/test/
+/*.log
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment-specific files
+*.env
+*.local
+
+# Ignore Maven build files (if applicable)
+/target/
+/pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Ignore Gradle build files (if applicable)
+/.gradle/
+/build/
+/out/
+
+# Ignore any files related to IDEs
+*.swp
+*.swo
+
